@@ -19,3 +19,20 @@ int main(){
 }
 
 //Write definition of shuffle() here 
+void shuffle(int &w,int &x, int &y, int &z){
+	int bb[]={w,x,y,z};
+	for(int i=0;i<4;i++){
+		swap(bb[rand()%4],bb[rand()%4]);{
+			w=bb[0];
+			x=bb[1];
+			y=bb[2];
+			z=bb[3];
+		}
+	}
+	
+	
+
+		
+	}
+	
+	
